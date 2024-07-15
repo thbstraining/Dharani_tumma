@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Rejected</title>
+</head>
+<body>
+    <h1>Dear <span th:text="${applicant.firstName}"></span>,</h1>
+    <p>We regret to inform you that your application for adopting <span th:text="${animalName}"></span> has been rejected.</p>
+    <p>Thank you for your understanding and interest in adopting a pet. We encourage you to apply again in the future.</p>
+    <p>Best regards,<br>The Pet Adoption Portal Team</p>
+</body>
+</html>
